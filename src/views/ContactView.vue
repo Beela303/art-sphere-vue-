@@ -52,4 +52,10 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+    #contact {
+        font-size: 1.7rem;
+    }
+}
 </style>

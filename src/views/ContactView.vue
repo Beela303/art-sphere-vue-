@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 350px) {
     #contact {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 </style>

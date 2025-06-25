@@ -35,20 +35,37 @@ h1:first-child {
     columns: 4;
 
     img {
-        width: 300px;
+        width: 100%;
         margin: 2%;
 
         border-radius: 30px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    h1:first-child {
+        font-size: 10vh;
+    }
+
     #gallery {
         columns: 3;
 
-        img {
-            width: 180px;
-        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1:first-child {
+        font-size: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 660px) {}
+
+@media screen and (max-width: 500px) {
+    #gallery {
+        columns: 2;
+
     }
 }
 </style>

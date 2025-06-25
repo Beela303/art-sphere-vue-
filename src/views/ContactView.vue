@@ -6,7 +6,7 @@
         <h1 class="text-mask">Get in Touch</h1>
         <div id="contact">
             <p>E-mail:</p>
-            <a href="mailto:nabilaabubakar333@gmail.com" class="text-mask">nabilaabubakar333@gmail.com</a>
+            <a href="mailto:nabilaabubakar333@gmail.com" class="text-mask">nabilaabubakar333 <br> @gmail.com</a>
 
             <p>Socials:</p>
             <p class="text-mask"><a href="https://instagram.com/beela303" target="_blank"
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 800px) {
     .text-mask {
-        font-size: 4vh;
+        font-size: 5vh;
         -webkit-text-stroke: .5px white;
     }
 

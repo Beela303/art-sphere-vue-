@@ -19,8 +19,8 @@
             <img src="../assets/images/galactic ocean of dreams.jpg" alt="">
             <img src="../assets/images/hall of mirage (border).jpg" alt="">
             <img src="../assets/images/hall of mirage.jpg" alt="">
-            <img src="../assets/images/the city's starry sky (day).jpg" alt="">
-            <img src="../assets/images/the city's starry sky (night).jpg" alt="">
+            <img src="../assets/images/the city starry sky (day).jpg" alt="">
+            <img src="../assets/images/the city starry sky (night).jpg" alt="">
         </div>
     </div>
 </template>

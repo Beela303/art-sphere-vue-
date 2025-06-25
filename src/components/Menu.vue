@@ -66,7 +66,7 @@ aside {
     width: calc(2rem + 32px);
     padding: 1rem;
 
-    min-height: 100vh;
+    height: 100%;
 
     display: flex;
     flex-direction: column;

@@ -46,10 +46,10 @@ const ToggleMenu = () => {
         <div class="flex"></div>
 
         <div class="menu">
-            <router-link class="button" to="/settings">
+            <a href="https://github.com/beela303" target="_blank" rel="noopener noreferrer" class="button">
                 <span class="material-icons">copyright</span>
                 <span class="text">Nabila Abubakar</span>
-            </router-link>
+            </a>
         </div>
     </aside>
 </template>

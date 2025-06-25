@@ -9,7 +9,7 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 p:first-child {
     font-size: 30vh;
     text-align: center;

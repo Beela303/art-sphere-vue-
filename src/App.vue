@@ -35,6 +35,8 @@ import Menu from './components/Menu.vue';
 
   box-sizing: border-box;
   font-family: 'sansita', sans-serif;
+
+  text-decoration: none;
 }
 
 body {

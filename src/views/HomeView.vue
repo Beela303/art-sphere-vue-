@@ -2,27 +2,29 @@
 </script>
 
 <template>
-    <div id="first-frame">
-        <h1 class="text-mask">ART SPHERE</h1>
-    </div>
-
-    <div id="second-frame" class="text-mask">
-        <h1>I am <span>Nabila</span></h1>
-        <h2>And Welcome to my <span>Sphere</span></h2>
-
-        <div class="images">
-            <img src="../assets/images/galactic ocean of dreams.jpg" alt="">
-            <img src="../assets/images/brown aesthetic.jpg" alt="">
-            <img src="../assets/images/calm ambience.jpg" alt="">
+    <div id="body">
+        <div id="first-frame">
+            <h1 class="text-mask">ART SPHERE</h1>
         </div>
-    </div>
 
-    <div id="third-frame" class="text-mask">
-        <p>Check Out More <span class="material-icons">arrow_forward_ios</span></p>
+        <div id="second-frame" class="text-mask">
+            <h1>I am <span>Nabila</span></h1>
+            <h2>And Welcome to my <span>Sphere</span></h2>
 
-        <div class="buttons">
-            <router-link to="/about"><button class="button-main">About</button></router-link>
-            <router-link to="/gallery"><button class="button-main">Gallery</button></router-link>
+            <div class="images">
+                <img src="../assets/images/galactic ocean of dreams.jpg" alt="">
+                <img src="../assets/images/brown aesthetic.jpg" alt="">
+                <img src="../assets/images/calm ambience.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="third-frame" class="text-mask">
+            <p>Check Out More <span class="material-icons">arrow_forward_ios</span></p>
+
+            <div class="buttons">
+                <router-link to="/about"><button class="button-main">About</button></router-link>
+                <router-link to="/gallery"><button class="button-main">Gallery</button></router-link>
+            </div>
         </div>
     </div>
 </template>

@@ -44,6 +44,10 @@ body {
   overflow-x: hidden;
 }
 
+#body {
+  margin-left: calc(2rem + 32px) !important;
+}
+
 button {
   appearance: none;
   border: none;
@@ -51,11 +55,5 @@ button {
   background: none;
 
   cursor: pointer;
-}
-
-#first-frame,
-#second-frame,
-#third-frame {
-  margin-left: calc(2rem + 32px) !important;
 }
 </style>

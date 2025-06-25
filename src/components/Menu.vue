@@ -34,11 +34,11 @@ const ToggleMenu = () => {
                 <span class="text">About</span>
             </router-link>
             <router-link class="button" to="/gallery">
-                <span class="material-icons">camera</span>
+                <span class="material-icons">image</span>
                 <span class="text">Gallery</span>
             </router-link>
             <router-link class="button" to="/contact">
-                <span class="material-icons">more</span>
+                <span class="material-icons">account_circle</span>
                 <span class="text">Contact</span>
             </router-link>
         </div>

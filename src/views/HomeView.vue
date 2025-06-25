@@ -21,8 +21,8 @@
         <p>Check Out More <span class="material-icons">arrow_forward_ios</span></p>
 
         <div class="buttons">
-            <button class="button-main">About</button>
-            <button class="button-main">Gallery</button>
+            <router-link to="/about"><button class="button-main">About</button></router-link>
+            <router-link to="/gallery"><button class="button-main">Gallery</button></router-link>
         </div>
     </div>
 </template>
@@ -85,9 +85,11 @@
         align-self: center;
 
         img {
-            width: 60vh;
+            width: 30%;
             padding: 20px;
             border-radius: 30px;
+
+            object-fit: cover;
         }
     }
 }
@@ -117,24 +119,59 @@
         height: 70vh;
 
         display: flex;
+        justify-content: center;
 
         .button-main {
-            width: 70vh;
-            margin: 150px;
-            font-size: 5vw;
-
-            border-radius: 30px;
-
             background: var(--main-color);
+
+            width: 30vw;
+            height: 30vh;
+
+            margin: 50px;
+            border-radius: 150px;
+
+            font-size: 5vw;
 
             transition: 1s;
 
             &:hover {
                 color: var(--main-color);
                 background: transparent;
+            }
+        }
+    }
+}
 
-                width: 50vh;
-                border-radius: 50px;
+//RESPONSIVENESS
+@media screen and (max-width: 600px) {
+    #second-frame {
+        padding-top: 15vh;
+        font-size: 3vh !important;
+
+        .images {
+            height: 50vh;
+        }
+    }
+
+    #third-frame {
+        p {
+            padding: 20px;
+            font-size: 7vw !important;
+
+            span {
+                font-size: 5vw;
+            }
+        }
+
+        .buttons {
+            height: 50vh;
+            margin-top: 15vh;
+
+            .button-main {
+                width: 20vw;
+                height: 30vh;
+
+                border-radius: 100px;
             }
         }
     }

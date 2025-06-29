@@ -1,5 +1,18 @@
 # art_sphere
 
+This is a website for an artist's portfolio, hence the name Art Sphere.
+It includes the home, about, gallery and contact pages.
+
+## Demo
+
+A live version can be found at https://art-sphere-vue.vercel.app
+
+### Tech Stack
+
+This project was built with:
+Vuejs
+Sass
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

@@ -3,20 +3,29 @@
 
 <template>
     <div id="body">
-        <p class="text-mask">Welcome!</p>
-        <p>I'm Nabila Abubakar</p> <br>
-        <p>and I'm an Artist with over five years of experience making digital art.</p>
+        <div id="second-frame">
+            <p class="text-mask">Welcome!</p>
+            <p>I'm Nabila Abubakar</p> <br>
+            <p>and I'm an Artist with over four years of experience making digital art.</p>
+            <div class="images">
+                <img src="../assets/images/archer in the forest.jpg" alt="Archer in the forest">
+                <img src="../assets/images/below the interspace of stars and clouds.jpg"
+                    alt="Below the interspace of stars and clouds">
+                <img src="../assets/images/fashionista in a museum (pink frame, black bg).jpg"
+                    alt="Fashionista in a museum">
+            </div>
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
 p:first-child {
     font-size: 8rem;
-    text-align: center;
 }
 
 p {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {

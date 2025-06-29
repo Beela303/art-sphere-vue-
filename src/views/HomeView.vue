@@ -12,9 +12,9 @@
             <h2>And Welcome to my <span>Sphere</span></h2>
 
             <div class="images">
-                <img src="../assets/images/galactic ocean of dreams.jpg" alt="">
-                <img src="../assets/images/brown aesthetic.jpg" alt="">
-                <img src="../assets/images/calm ambience.jpg" alt="">
+                <img src="../assets/images/galactic ocean of dreams.jpg" alt="Galactic ocean of dreams">
+                <img src="../assets/images/brown aesthetic.jpg" alt="Brown aesthetic">
+                <img src="../assets/images/calm ambience.jpg" alt="Calm ambience">
             </div>
         </div>
 

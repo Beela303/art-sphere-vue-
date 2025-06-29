@@ -14,7 +14,9 @@ const ToggleMenu = () => {
     <aside :class="`${is_expanded && 'is-expanded'}`">
         <div class="logo">
             <!--<img src="../assets/logo.svg" alt="Logo" />-->
-            <h1>A.S</h1>
+            <router-link to="/">
+                <h1>A.S</h1>
+            </router-link>
         </div>
 
         <div class="menu-toggle-wrap">
@@ -82,6 +84,10 @@ aside {
 
     .logo {
         margin-bottom: 1rem;
+
+        h1 {
+            color: #f3f3f3 !important;
+        }
 
         img {
             width: 2rem;

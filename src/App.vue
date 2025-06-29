@@ -11,7 +11,7 @@ import Menu from './components/Menu.vue';
 <style lang="scss">
 :root {
   --background-color-2: #C599B6;
-  --pastel-color-1: #E6B2BA;
+  --pastel-color-1: #9d7f84;
   --pastel-color-2: #FAD0C4;
   --text-color: #fff7f3;
 

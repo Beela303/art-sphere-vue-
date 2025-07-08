@@ -48,7 +48,7 @@ const ToggleMenu = () => {
         <div class="flex"></div>
 
         <div class="menu">
-            <a href="https://github.com/beela303" target="_blank" rel="noopener noreferrer" class="button">
+            <a href="https://beela303.vercel.app/" target="_blank" rel="noopener noreferrer" class="button">
                 <span class="material-icons">copyright</span>
                 <span class="text">Nabila Abubakar</span>
             </a>

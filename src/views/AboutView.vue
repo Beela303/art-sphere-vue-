@@ -6,7 +6,7 @@
         <div id="second-frame">
             <p class="text-mask">Welcome!</p>
             <p>I'm Nabila Abubakar</p> <br>
-            <p>and I'm an Artist with over four years of experience making digital art.</p>
+            <p>and I'm a Digital and Traditional Artist.</p>
             <div class="images">
                 <img src="../assets/images/archer in the forest.jpg" alt="Archer in the forest">
                 <img src="../assets/images/below the interspace of stars and clouds.jpg"

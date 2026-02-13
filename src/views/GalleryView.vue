@@ -35,6 +35,17 @@
             <img src="../assets/images/trad 10.jpg" alt="Traditional Art">
             <img src="../assets/images/trad 11.jpg" alt="Traditional Art">
             <img src="../assets/images/trad 13.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 14.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 15.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 16.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 17.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 18.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 19.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 20.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 21.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 22.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 23.jpg" alt="Traditional Art">
+            <img src="../assets/images/trad 24.jpg" alt="Traditional Art">
         </div>
     </div>
 </template>

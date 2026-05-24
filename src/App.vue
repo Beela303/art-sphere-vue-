@@ -58,4 +58,8 @@ button {
 
   cursor: pointer;
 }
+
+li {
+  list-style: none;
+}
 </style>

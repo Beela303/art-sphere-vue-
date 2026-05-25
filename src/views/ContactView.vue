@@ -6,7 +6,7 @@
         <h1 class="text-mask">Get in Touch</h1>
         <div id="contact">
             <div id="contact-form">
-                <form action="https://formsubmit.co/nabilaabubakar333@gmail.com" method="POST">
+                <form action="https://formsubmit.co/dc027401bb393a2c66cb207f9cccd3e2" method="POST">
                     <!--Honeypot-->
                     <input type="text" name="_honey" style="display:none" />
 

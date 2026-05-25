@@ -204,7 +204,7 @@
 
 @media screen and (max-width: 768px) {
     .text-mask {
-        margin-left: calc(2rem + 32px) !important;
+        margin-left: calc(2rem + 29px) !important;
     }
 
     #contact-form {

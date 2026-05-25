@@ -9,13 +9,14 @@
                 <form action="https://formsubmit.co/nabilaabubakar333@gmail.com" method="POST">
                     <!--Honeypot-->
                     <input type="text" name="_honey" style="display:none" />
-                    
+
                     <!--Disable initial captcha-->
                     <input type="hidden" name="_captcha" value="false" />
-                    
+
                     <!--Custom response-->
-                    <input type="hidden" name="_autoresponse" value="Thank you for reaching out! I can't wait to work with you!!! You'll receive a reply soon :)" />
-                    
+                    <input type="hidden" name="_autoresponse"
+                        value="Thank you for reaching out! I can't wait to work with you!!! You'll receive a reply soon :)" />
+
                     <!--Subject-->
                     <input type="hidden" name="_subject" value="New Submission!" />
 
@@ -31,7 +32,8 @@
 
                     <label for="description">Description:</label>
                     <br />
-                    <textarea type="text" id="description" name="description" placeholder="I want..." rows="5" cols="40" required></textarea>
+                    <textarea type="text" id="description" name="description" placeholder="I want..." rows="5" cols="40"
+                        required></textarea>
                     <br />
 
                     <button type="submit">Submit</button>
@@ -56,16 +58,17 @@
                             title="Linked-In"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="https://www.instagram.com/beela303" target="_blank" rel="noopener noreferrer"
                             title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://www.twitter.com/beela303" target="_blank" rel="noopener noreferrer" title="Twitter"><i
-                                class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.twitter.com/beela303" target="_blank" rel="noopener noreferrer"
+                            title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><router-link to="/podcast" title="Podcast"><i class="fas fa-podcast"></i></router-link></li>
-                    <li><a href="https://www.youtube.com/@beela303" target="_blank" rel="noopener noreferrer" title="YouTube"><i
-                                class="fa-brands fa-youtube"></i></a></li>
-                    <li><a href="https://www.tiktok/beela303" target="_blank" rel="noopener noreferrer" title="TikTok"><i
-                                class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="https://www.youtube.com/@beela303" target="_blank" rel="noopener noreferrer"
+                            title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.tiktok/beela303" target="_blank" rel="noopener noreferrer"
+                            title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
                     <li><a href="https://www.pinterest.com/beela303" target="_blank" rel="noopener noreferrer"
                             title="Pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
-                    <li><a href="mailto:nabilaabubakar333@gmail.com" title="E-mail"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="mailto:nabilaabubakar333@gmail.com" title="E-mail"><i class="fas fa-envelope"></i></a>
+                    </li>
                 </ul>
 
             </div>
@@ -74,6 +77,11 @@
 </template>
 
 <style lang="scss" scoped>
+#body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .text-mask {
     font-size: 10vh;
     text-align: center;
@@ -87,7 +95,7 @@
         color: var(--pastel-color-1);
         text-align: left;
     }
-            
+
     #contact-form {
         justify-content: center !important;
         display: grid;
@@ -98,7 +106,7 @@
 
             margin: 25px;
             margin-bottom: 12vh;
-            
+
             border: 1px dashed var(--text-color);
             border-radius: 30px;
 
@@ -113,7 +121,7 @@
                 margin: 10px;
                 border-radius: 25px;
             }
-            
+
             textarea {
                 width: 100%;
                 margin: 10px;
@@ -155,6 +163,10 @@
     }
 
     #footer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
         ul {
             display: flex;
             justify-content: space-evenly;
@@ -162,16 +174,16 @@
             li {
                 color: var(--text-color);
                 font-size: 2rem;
-                
+
                 transition: 2s;
-                
+
                 &:hover {
                     color: var(--pastel-color-1);
                 }
 
                 a {
                     color: var(--text-color);
-                    
+
                     &:hover {
                         color: var(--pastel-color-1);
                     }
@@ -191,24 +203,34 @@
 }
 
 @media screen and (max-width: 768px) {
-  #contact-form {
-    width: 100%;
-    display: block;
+    #contact-form {
+        width: 100%;
+        display: block;
 
-    form {
-      width: 90vw;
-      margin: 0;
-      margin-bottom: 12vh;
+        form {
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 7vh;
 
-      label {
-        font-size: 1.3rem;
-      }
+            label {
+                font-size: 1.3rem;
+            }
 
-      input {
-        height: 35px;
-      }
+            input {
+                height: 35px;
+            }
+        }
     }
-  }
+
+    #footer {
+        margin-left: calc(2rem + 32px) !important;
+
+        ul {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -222,6 +244,32 @@
     }
 }
 
+
+@media screen and (max-width: 600px) {
+    #contact-form {
+        form {
+            width: 90% !important;
+            margin-left: 5% !important;
+            margin-bottom: 5vh;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #contact-form {
+        form {
+            width: 85% !important;
+            margin-left: 13% !important;
+        }
+    }
+
+    #footer {
+        ul {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
 
 @media screen and (min-width: 200px) and (max-width: 500px) {
     #footer p {
@@ -238,20 +286,20 @@
 }
 
 @media screen and (max-width: 400px) {
-  #contact-form {
-    form {
-      button {
-        width: 50%;
-        height: 7vh;
+    #contact-form {
+        form {
+            button {
+                width: 50%;
+                height: 7vh;
 
-        font-size: 1.3rem;
-      }
+                font-size: 1.3rem;
+            }
+        }
     }
-  }
 
-  #footer ul {
-    font-size: 25px;
-  }
+    #footer ul {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 350px) {

@@ -5,14 +5,20 @@
     <div id="body">
         <h1 class="text-mask">Gallery</h1>
         <div id="gallery">
+            <img src="../assets/images/phone on a desk.webp" alt="phone on a desk">
+            <img src="../assets/images/silver haired lady with stars.webp" alt="Silver haired lady with stars">
+            <img src="../assets/images/silver haired lady without stars.webp" alt="Silver haired lady without stars">
             <img src="../assets/images/amulet of avalor.webp" alt="Amulet of avalor">
             <img src="../assets/images/archer in the forest.webp" alt="Archer in the forest">
             <img src="../assets/images/below the interspace of stars and clouds.webp"
                 alt="Below the interspace of stars and clouds">
             <img src="../assets/images/below the ocean (2).webp" alt="Below the ocean">
             <img src="../assets/images/trad 05.webp" alt="Traditional Art">
-            <img src="../assets/images/Into the illusion of the mirror.webp" alt="Digital Art">
-            <img src="../assets/images/Seeking through the abyss.webp" alt="Digital Art">
+            <img src="../assets/images/Into the illusion of the mirror.webp" alt="Into the illusion of the mirror">
+            <img src="../assets/images/Seeking through the abyss.webp" alt="Seeking through the abyss">
+            <img src="../assets/images/lady in an illusion 1.webp" alt="lady in an illusion 1">
+            <img src="../assets/images/lady in an illusion 2.webp" alt="lady in an illusion 2">
+            <img src="../assets/images/lady in an illusion 3.webp" alt="lady in an illusion 3">
             <img src="../assets/images/brown aesthetic.webp" alt="Brown aesthetic">
             <img src="../assets/images/calm ambience.webp" alt="Calm ambience">
             <img src="../assets/images/Fashionista in a museum (blue frame, black bg).webp"

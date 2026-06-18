@@ -18,7 +18,6 @@
             <img src="../assets/images/Seeking through the abyss.webp" alt="Seeking through the abyss">
             <img src="../assets/images/lady in an illusion 1.webp" alt="lady in an illusion 1">
             <img src="../assets/images/lady in an illusion 2.webp" alt="lady in an illusion 2">
-            <img src="../assets/images/lady in an illusion 3.webp" alt="lady in an illusion 3">
             <img src="../assets/images/brown aesthetic.webp" alt="Brown aesthetic">
             <img src="../assets/images/calm ambience.webp" alt="Calm ambience">
             <img src="../assets/images/Fashionista in a museum (blue frame, black bg).webp"

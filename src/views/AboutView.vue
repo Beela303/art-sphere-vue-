@@ -8,10 +8,10 @@
             <p>I'm Nabila Abubakar</p> <br>
             <p>and I'm a Digital and Traditional Artist.</p>
             <div class="images">
-                <img src="../assets/images/archer in the forest.webp" alt="Archer in the forest">
-                <img src="../assets/images/below the interspace of stars and clouds.webp"
+                <img src="../assets/images/archer_in_the_forest.webp" alt="Archer in the forest">
+                <img src="../assets/images/below_the_interspace_of_stars_and_clouds.webp"
                     alt="Below the interspace of stars and clouds">
-                <img src="../assets/images/fashionista in a museum (pink frame, black bg).webp"
+                <img src="../assets/images/fashionista_in_a_museum_pink_frame_black_bg.webp"
                     alt="Fashionista in a museum">
             </div>
         </div>

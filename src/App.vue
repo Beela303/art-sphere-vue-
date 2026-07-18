@@ -1,10 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Menu from './components/Menu.vue';
+import ScrollToTop from './components/ScrollToTop.vue';
 </script>
 
 <template>
-  <Menu></Menu>
+  <Menu />
+  <ScrollToTop />
   <RouterView />
 </template>
 

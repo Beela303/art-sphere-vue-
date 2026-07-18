@@ -11,351 +11,358 @@ const photos = ref([
         id: 1,
         type: 'image',
         url: new URL('../assets/images/phone_on_a_desk.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Still Life'],
         title: 'Phone on a Desk'
     },
     {
         id: 2,
         type: 'image',
         url: new URL('../assets/images/silver_haired_lady_without_stars.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
-        title: 'silver haired lady without stars'
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
+        title: 'Silver haired lady without stars'
     },
     {
         id: 3,
         type: 'image',
         url: new URL('../assets/images/silver_haired_lady_with_stars.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
-        title: 'silver haired lady with stars'
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
+        title: 'Silver haired lady with stars'
     },
     {
         id: 4,
         type: 'image',
         url: new URL('../assets/images/fashionista_in_a_museum_pink_frame_black_bg.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
         title: 'Fashionista in a museum (Pink frame, Black BG)'
     },
     {
         id: 5,
         type: 'image',
         url: new URL('../assets/images/fashionista_in_a_museum_pink_frame_white_bg.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions'],
         title: 'Fashionista in a museum (Pink frame, White BG)'
     },
     {
         id: 6,
         type: 'image',
         url: new URL('../assets/images/fashionista_in_a_museum_blue_frame_black_bg.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
         title: 'Fashionista in a museum (Blue frame, Black BG)'
     },
     {
         id: 7,
         type: 'image',
         url: new URL('../assets/images/fashionista_in_a_museum_blue_frame_white_bg.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
         title: 'Fashionista in a museum (Blue frame, White BG)'
     },
     {
         id: 8,
         type: 'image',
         url: new URL('../assets/images/fashionista_in_a_museum_white_bg.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Multiple Versions', 'Woman'],
         title: 'Fashionista in a museum (White BG)'
     },
     {
         id: 9,
         type: 'image',
         url: new URL('../assets/images/brown_aesthetic.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Portrait', 'Woman'],
         title: 'Brown Aesthetic'
     },
     {
         id: 10,
         type: 'image',
         url: new URL('../assets/images/into_the_illusion_of_the_mirror.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Fantasy', 'Underwater', 'Woman'],
         title: 'Into the illusion of the mirror'
     },
     {
         id: 11,
         type: 'image',
         url: new URL('../assets/images/seeking_through_the_abyss.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Fantasy', 'Woman'],
         title: 'Seeking through the abyss'
     },
     {
         id: 12,
         type: 'image',
         url: new URL('../assets/images/below_the_ocean_1.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Underwater'],
         title: 'Below the ocean'
     },
     {
         id: 13,
         type: 'image',
         url: new URL('../assets/images/archer_in_the_forest.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Forest', 'Nature', 'Woman'],
         title: 'Archer in the forest'
     },
     {
         id: 14,
         type: 'image',
         url: new URL('../assets/images/into_the_illusion_of_the_mirror.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Fantasy', 'Woman', 'Light'],
         title: 'Into the illusion of the mirror'
     },
     {
         id: 15,
         type: 'image',
         url: new URL('../assets/images/below_the_interspace_of_stars_and_clouds.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Abstract', 'Space'],
         title: 'Below the interspace of stars and clouds'
     },
     {
         id: 16,
         type: 'image',
         url: new URL('../assets/images/calm_ambience.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Still Life'],
         title: 'Calm ambience'
     },
     {
         id: 17,
         type: 'image',
         url: new URL('../assets/images/galactic_ocean_of_dreams.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Underwater', 'Flowers', 'Sky'],
         title: 'Galactic ocean of dreams'
     },
     {
         id: 18,
         type: 'image',
         url: new URL('../assets/images/hall_of_mirage_border.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Abstract', 'Multiple Versions'],
         title: 'Hall of mirage (border)'
     },
     {
         id: 19,
         type: 'image',
         url: new URL('../assets/images/hall_of_mirage.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Abstract', 'Multiple Versions'],
         title: 'Hall of mirage'
     },
     {
         id: 20,
         type: 'image',
         url: new URL('../assets/images/the_city_starry_sky_night.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Architecture', 'Night', 'Multiple Versions'],
         title: "The city's starry sky (night)"
     },
     {
         id: 21,
         type: 'image',
         url: new URL('../assets/images/the_city_starry_sky_day.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Architecture', 'Day', 'Multiple Versions'],
         title: "The city's starry sky (day)"
     },
     {
         id: 22,
         type: 'image',
         url: new URL('../assets/images/lady_in_an_illusion_1.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Fantasy', 'Multiple Versions', 'Woman'],
         title: 'Lady in an illusion 1'
     },
     {
         id: 23,
         type: 'image',
         url: new URL('../assets/images/lady_in_an_illusion_2.webp', import.meta.url).href,
-        categories: ['Digital Art', 'Art'],
+        categories: ['Digital Art', 'Fantasy', 'Multiple Versions', 'Woman'],
         title: 'Lady in an illusion 2'
     },
     {
         id: 24,
         type: 'image',
         url: new URL('../assets/images/trad_05.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 25,
         type: 'image',
         url: new URL('../assets/images/trad_06.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 26,
         type: 'image',
         url: new URL('../assets/images/trad_07.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 27,
         type: 'image',
         url: new URL('../assets/images/trad_08.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 28,
         type: 'image',
         url: new URL('../assets/images/trad_09.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 29,
         type: 'image',
         url: new URL('../assets/images/trad_10.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 30,
         type: 'image',
         url: new URL('../assets/images/trad_11.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 31,
         type: 'image',
         url: new URL('../assets/images/trad_12.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 32,
         type: 'image',
         url: new URL('../assets/images/trad_13.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 33,
         type: 'image',
         url: new URL('../assets/images/trad_14.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 34,
         type: 'image',
         url: new URL('../assets/images/trad_15.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 35,
         type: 'image',
         url: new URL('../assets/images/trad_16.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 36,
         type: 'image',
         url: new URL('../assets/images/trad_16.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 37,
         type: 'image',
         url: new URL('../assets/images/trad_16.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 38,
         type: 'image',
         url: new URL('../assets/images/trad_17.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 39,
         type: 'image',
         url: new URL('../assets/images/trad_18.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 40,
         type: 'image',
         url: new URL('../assets/images/trad_19.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 41,
         type: 'image',
         url: new URL('../assets/images/trad_20.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 42,
         type: 'image',
         url: new URL('../assets/images/trad_21.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 43,
         type: 'image',
         url: new URL('../assets/images/trad_22.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 44,
         type: 'image',
         url: new URL('../assets/images/trad_23.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 45,
         type: 'image',
         url: new URL('../assets/images/trad_24.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Traditional art'
     },
     {
         id: 46,
         type: 'image',
         url: new URL('../assets/images/trad_25.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Cherries (sketch)'
     },
     {
         id: 47,
         type: 'image',
         url: new URL('../assets/images/trad_26.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Cherries'
     },
     {
         id: 48,
         type: 'image',
         url: new URL('../assets/images/trad_26.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
-        title: 'Basket of Fruits'
+        categories: ['Traditional Art', 'Pencil Art'],
+        title: 'Cherries'
     },
     {
         id: 49,
         type: 'image',
         url: new URL('../assets/images/trad_27.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Basket of Fruits'
     },
     {
         id: 50,
         type: 'image',
         url: new URL('../assets/images/trad_28.webp', import.meta.url).href,
-        categories: ['Traditional Art', 'Art'],
+        categories: ['Traditional Art', 'Pencil Art'],
         title: 'Basket of Fruits'
+    },
+    {
+        id: 51,
+        type: 'image',
+        url: new URL('../assets/images/amulet_of_avalor.webp', import.meta.url).href,
+        categories: ['Digital Art', 'Jewelry', 'Fan Art'],
+        title: 'Amulet of Avalor'
     }
 ]);
 
@@ -429,79 +436,79 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeyDown));
 <template>
     <div id="body">
         <h1 class="text-mask">Gallery</h1>
-        
+
         <div class="gallery-container">
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input v-model="searchQuery" type="text" placeholder="Search photos or videos by title..."
-                class="search-bar" />
-        </div>
-
-        <!-- Category Tabs -->
-        <div class="tabs">
-            <button v-for="cat in categoriesList" :key="cat" :class="{ active: selectedCategory === cat }"
-                @click="selectedCategory = cat">
-                {{ cat }}
-            </button>
-        </div>
-
-        <!-- Full-Screen Modal with Navigation -->
-        <div v-if="activePhoto" class="modal-overlay" @click="closeModal">
-            <button class="nav-btn prev-btn" @click.stop="navigatePhoto(-1)">‹</button>
-
-            <div class="modal-content" @click.stop>
-                <button class="close-btn" @click="closeModal">×</button>
-
-                <!-- Large Image Mode -->
-                <img v-if="activePhoto.type === 'image'" :src="activePhoto.url" :alt="activePhoto.title" />
-
-                <!-- Large Video Player Mode -->
-                <video v-else-if="activePhoto.type === 'video'" :src="activePhoto.url" controls autoplay
-                    class="modal-video-player">
-                    <div class="play-overlay">
-                        <span class="play-icon">▶</span>
-                    </div>
-                </video>
-
-                <h2>{{ activePhoto.title }}</h2>
-                <div class="modal-tags">
-                    <span v-for="tag in activePhoto.categories" :key="tag" class="tag-badge">
-                        {{ tag }}
-                    </span>
-                </div>
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input v-model="searchQuery" type="text" placeholder="Search photos or videos by title..."
+                    class="search-bar" />
             </div>
 
-            <button class="nav-btn next-btn" @click.stop="navigatePhoto(1)">›</button>
-        </div>
+            <!-- Category Tabs -->
+            <div class="tabs">
+                <button v-for="cat in categoriesList" :key="cat" :class="{ active: selectedCategory === cat }"
+                    @click="selectedCategory = cat">
+                    {{ cat }}
+                </button>
+            </div>
 
-        <div class="photo-grid box">
-            <div v-for="photo in filteredPhotos" :key="photo.id" class="photo-item" @click="openModal(photo)">
-                <div class="image-wrapper">
-                    <!-- Render Image if type is image -->
-                    <img v-if="photo.type === 'image'" :src="photo.url" :alt="photo.title" />
+            <!-- Full-Screen Modal with Navigation -->
+            <div v-if="activePhoto" class="modal-overlay" @click="closeModal">
+                <button class="nav-btn prev-btn" @click.stop="navigatePhoto(-1)">‹</button>
 
-                    <!-- Render Video Thumbnail if type is video -->
-                    <div v-else-if="photo.type === 'video'">
-                        <video :src="photo.url" muted preload="metadata" />
+                <div class="modal-content" @click.stop>
+                    <button class="close-btn" @click="closeModal">×</button>
+
+                    <!-- Large Image Mode -->
+                    <img v-if="activePhoto.type === 'image'" :src="activePhoto.url" :alt="activePhoto.title" />
+
+                    <!-- Large Video Player Mode -->
+                    <video v-else-if="activePhoto.type === 'video'" :src="activePhoto.url" controls autoplay
+                        class="modal-video-player">
                         <div class="play-overlay">
                             <span class="play-icon">▶</span>
                         </div>
-                    </div>
-                    <!--<video v-else-if="photo.type === 'video'" :src="photo.url" muted preload="metadata" />-->
-                </div>
+                    </video>
 
-                <div class="photo-info">
-                    <h3>{{ photo.title }}</h3>
-                    <div class="tags-container">
-                        <span v-for="tag in photo.categories" :key="tag" class="tag-badge">
+                    <h2>{{ activePhoto.title }}</h2>
+                    <div class="modal-tags">
+                        <span v-for="tag in activePhoto.categories" :key="tag" class="tag-badge">
                             {{ tag }}
                         </span>
                     </div>
                 </div>
+
+                <button class="nav-btn next-btn" @click.stop="navigatePhoto(1)">›</button>
             </div>
 
+            <div class="photo-grid box">
+                <div v-for="photo in filteredPhotos" :key="photo.id" class="photo-item" @click="openModal(photo)">
+                    <div class="image-wrapper">
+                        <!-- Render Image if type is image -->
+                        <img v-if="photo.type === 'image'" :src="photo.url" :alt="photo.title" />
+
+                        <!-- Render Video Thumbnail if type is video -->
+                        <div v-else-if="photo.type === 'video'">
+                            <video :src="photo.url" muted preload="metadata" />
+                            <div class="play-overlay">
+                                <span class="play-icon">▶</span>
+                            </div>
+                        </div>
+                        <!--<video v-else-if="photo.type === 'video'" :src="photo.url" muted preload="metadata" />-->
+                    </div>
+
+                    <div class="photo-info">
+                        <h3>{{ photo.title }}</h3>
+                        <div class="tags-container">
+                            <span v-for="tag in photo.categories" :key="tag" class="tag-badge">
+                                {{ tag }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
     </div>
 </template>
 
@@ -881,5 +888,4 @@ h1:first-child {
         grid-template-columns: 1fr !important;
     }
 }
-
 </style>

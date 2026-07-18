@@ -544,7 +544,7 @@ h1:first-child {
 
             padding: 12px;
 
-            border: 2px solid var(--main-color);
+            border: 2px solid var(--pastel-color-2);
             border-radius: 25px;
 
             font-size: 16px;
@@ -563,7 +563,7 @@ h1:first-child {
             background: var(--text-color);
 
             padding: 10px 20px;
-            border: 1px solid var(--main-color);
+            border: 1px solid var(--pastel-color-2);
 
             border-radius: 20px;
             font-weight: bold;
@@ -572,15 +572,15 @@ h1:first-child {
             cursor: pointer;
 
             &:hover {
-                color: var(--text-color);
-                background: var(--main-color);
+                //color: var(--text-color);
+                background: var(--pastel-color-2);
             }
 
             &.active {
-                color: var(--text-color);
-                background: var(--main-color);
+                //color: var(--text-color);
+                background: var(--pastel-color-2);
 
-                border-color: var(--main-color);
+                border-color: var(--pastel-color-2);
             }
         }
     }
@@ -614,7 +614,7 @@ h1:first-child {
 
                 .play-icon {
                     color: var(--text-color);
-                    background: var(--main-color);
+                    background: var(--pastel-color-2);
                     //background: #42b883;
 
                     transform: scale(1.1);
@@ -672,6 +672,7 @@ h1:first-child {
     /* Small Category Badge Tags */
     .tags-container,
     .modal-tags {
+        color: #222;
         gap: 6px;
 
         display: flex;
@@ -679,8 +680,8 @@ h1:first-child {
     }
 
     .tag-badge {
-        color: var(--text-color);
-        background: var(--main-color);
+        //color: var(--text-color);
+        background: var(--pastel-color-2);
 
         padding: 4px 10px;
         border-radius: 12px;
@@ -710,7 +711,7 @@ h1:first-child {
 
         /* Navigation buttons */
         .nav-btn {
-            color: var(--text-color);
+            //color: var(--text-color);
             background: rgba(255, 255, 255, 0.15);
 
             top: 50%;
@@ -770,12 +771,11 @@ h1:first-child {
             }
 
             h2 {
-                color: var(--text-color);
+                //color: var(--text-color);
 
                 margin: 15px 0 10px 0;
                 font-size: 22px;
             }
-
 
             .close-btn {
                 color: var(--text-color);

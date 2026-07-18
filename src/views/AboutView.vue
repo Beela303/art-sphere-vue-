@@ -5,8 +5,14 @@
     <div id="body">
         <div id="second-frame">
             <p class="text-mask">Welcome!</p>
-            <p>I'm Nabila Abubakar</p> <br>
+            <p>I'm Nabila Abubakar</p>
             <p>and I'm a Digital and Traditional Artist.</p>
+            <br />
+            <p>My personal website is available at:
+                <a href="https://beela303.vercel.app/" target="_blank" rel="noopener noreferrer" class="button">
+                    https://beela303.vercel.app/
+                </a>
+            </p>
             <div class="images">
                 <img src="../assets/images/archer_in_the_forest.webp" alt="Archer in the forest">
                 <img src="../assets/images/below_the_interspace_of_stars_and_clouds.webp"
@@ -20,31 +26,43 @@
 
 <style lang="scss" scoped>
 p:first-child {
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 p {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
+
+    a {
+        color: var(--pastel-color-2);
+        
+        &:hover {
+            color: var(--pastel-color-1);
+        }
+    }
+}
+
+p:last-child {
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1024px) {
     p:first-child {
-        font-size: 6.5rem;
+        font-size: 5.5rem;
     }
 
     p {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     p:first-child {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -54,7 +72,7 @@ p {
     }
 
     p {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -64,7 +82,7 @@ p {
     }
 
     p {
-        font-size: 2.7rem;
+        font-size: 1.7rem;
     }
 }
 </style>

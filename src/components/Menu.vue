@@ -77,6 +77,7 @@ aside {
     overflow: hidden;
 
     position: fixed;
+    z-index: 9999;
 
     .flex {
         flex: 1 1 0;
@@ -118,7 +119,7 @@ aside {
 
             &:hover {
                 .material-icons {
-                    color: var(--pastel-color-1);
+                    color: var(--pastel-color-2);
 
                     transform: translateX(0.5rem);
                 }
@@ -174,7 +175,7 @@ aside {
 
             &:hover,
             &.router-link-exact-active {
-                background-color: var(--pastel-color-1);
+                background-color: var(--pastel-color-2);
 
                 .material-icons,
                 .text {

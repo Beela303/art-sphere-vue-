@@ -564,6 +564,7 @@ h1:first-child {
         gap: 10px;
 
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
 
         button {

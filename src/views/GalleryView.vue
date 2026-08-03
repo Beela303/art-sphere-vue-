@@ -70,13 +70,13 @@ const photos = ref([
         categories: ['Digital Art', 'Portrait', 'Woman'],
         title: 'Brown Aesthetic'
     },
-    {
+    /*{
         id: 10,
         type: 'image',
         url: new URL('../assets/images/Into_the_illusion_of_the_mirror.webp', import.meta.url).href,
         categories: ['Digital Art', 'Fantasy', 'Underwater', 'Woman'],
         title: 'Into the illusion of the mirror'
-    },
+    },*/
     {
         id: 11,
         type: 'image',
@@ -98,13 +98,13 @@ const photos = ref([
         categories: ['Digital Art', 'Forest', 'Nature', 'Woman'],
         title: 'Archer in the forest'
     },
-    {
+    /*{
         id: 14,
         type: 'image',
         url: new URL('../assets/images/into_the_illusion_of_the_mirror.webp', import.meta.url).href,
         categories: ['Digital Art', 'Fantasy', 'Woman', 'Light'],
         title: 'Into the illusion of the mirror'
-    },
+    },*/
     {
         id: 15,
         type: 'image',

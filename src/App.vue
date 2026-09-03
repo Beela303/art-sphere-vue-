@@ -45,11 +45,12 @@ body {
   color: var(--text-color);
   background: var(--dark-color-2);
 
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 #body {
   margin-left: calc(2rem + 32px) !important;
+  overflow-x: hidden !important;
 }
 
 button {

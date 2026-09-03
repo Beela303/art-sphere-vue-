@@ -30,7 +30,7 @@
 
         <div class="fourth-frame bg-dark">
             <p class="text-mask">Digital & Traditional
-                <hr /> Artist
+                <br /> Artist
             </p>
             <p>I'm Nabila Abubakar</p>
             <p>and I specialize in semi-realistic traditional and digital Art.</p>

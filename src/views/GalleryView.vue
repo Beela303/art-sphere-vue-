@@ -527,26 +527,6 @@ h1:first-child {
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    h1:first-child {
-        font-size: 10vh;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    h1:first-child {
-        font-size: 7vh;
-    }
-
-    .gallery-container {
-        .search-container {
-            .search-bar {
-                width: 35vw;
-            }
-        }
-    }
-}
-
 #categories-div-arrow {
     width: 70%;
     margin-bottom: 2%;
@@ -887,6 +867,27 @@ h1:first-child {
 
         transition: var(--transition);
         //transition: transform 0.2s;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    h1:first-child {
+        font-size: 10vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1:first-child {
+        font-size: 7vh;
+    }
+
+    .gallery-container {
+        .search-container {
+            .search-bar {
+                width: 35vw !important;
+            }
+        }
     }
 }
 

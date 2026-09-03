@@ -156,7 +156,7 @@ const filteredJobs = computed(() => {
             padding: 1.25rem;
 
             border-radius: 8px;
-            border: 3px dashed var(--pastel-color-2);
+            border: 1px solid var(--pastel-color-2);
             //border: 1px solid var(--pastel-color-2);
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 

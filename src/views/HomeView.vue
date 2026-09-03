@@ -29,9 +29,11 @@
         </div>
 
         <div class="fourth-frame bg-dark">
-            <p class="text-mask">Digital & Traditional Artist</p>
+            <p class="text-mask">Digital & Traditional
+                <hr /> Artist
+            </p>
             <p>I'm Nabila Abubakar</p>
-            <p>and I specialize in semi-realistic pencil and digital Art.</p>
+            <p>and I specialize in semi-realistic traditional and digital Art.</p>
             <br />
             <p>Personal Website:
                 <a href="https://beela303.vercel.app/" target="_blank" rel="noopener noreferrer" class="button">

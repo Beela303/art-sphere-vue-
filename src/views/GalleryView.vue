@@ -599,7 +599,7 @@ h1:first-child {
             }
 
             &.active {
-                color: var(--text-color);
+                //color: var(--text-color);
                 background: var(--pastel-color-2);
 
                 border-color: var(--pastel-color-2);
@@ -885,7 +885,7 @@ h1:first-child {
     .gallery-container {
         .search-container {
             .search-bar {
-                width: 25vw !important;
+                width: 35vw !important;
             }
         }
     }

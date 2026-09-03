@@ -535,7 +535,7 @@ h1:first-child {
 
     display: flex;
     justify-content: space-between;
-    justify-self: center;
+    justify-self: center !important;
 
     button {
         color: var(--text-color);
@@ -885,6 +885,8 @@ h1:first-child {
 
     .gallery-container {
         .search-container {
+            width: 35vw !important;
+
             .search-bar {
                 width: 35vw !important;
             }

@@ -218,11 +218,12 @@
 
         form {
             width: 100% !important;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-right: 0;
             padding: 0;
+
+            margin-top: 0;
             margin-bottom: 7vh;
+            margin-right: 0;
+            margin-left: calc(2rem + 25px) !important;
 
             label {
                 font-size: 1.3rem;

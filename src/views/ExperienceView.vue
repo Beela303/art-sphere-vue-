@@ -73,6 +73,22 @@ const filteredJobs = computed(() => {
 </template>
 
 <style lang="scss">
+#categories-div-arrow {
+    width: 70%;
+    margin-bottom: 2%;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+
+    button {
+        color: var(--text-color);
+        background: none;
+    }
+}
+
 .experience-page {
     max-width: 800px;
     margin: 0 auto;
@@ -113,7 +129,7 @@ const filteredJobs = computed(() => {
             &.active,
             &:hover {
                 color: var(--text-color);
-                background: var(--main-color);
+                background: var(--pastel-color-2);
 
                 border-color: var(--pastel-color-2);
 
@@ -148,7 +164,7 @@ const filteredJobs = computed(() => {
 
             .timeline-dot-icon {
                 color: var(--text-color);
-                background: var(--main-color);
+                background: var(--pastel-color-2);
 
                 left: -3.45rem;
                 top: 14px;

@@ -578,7 +578,7 @@ h1:first-child {
             border: 2px solid var(--pastel-color-2);
             border-radius: 25px;
 
-            font-size: 16px;
+            font-size: 10px;
         }
     }
 

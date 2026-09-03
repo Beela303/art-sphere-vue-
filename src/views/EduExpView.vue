@@ -26,7 +26,7 @@ export default {
 
 <template>
     <div id="body">
-        <h1>Edu X Exp</h1>
+        <h1 class="text-mask">Edu X Exp</h1>
 
         <div class="tab-wrapper">
             <!-- TAB HEADERS -->
@@ -51,7 +51,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-h1 {
+/*h1 {
     color: transparent;
 
     text-align: center;
@@ -60,7 +60,7 @@ h1 {
     font-weight: bold;
 
     -webkit-text-stroke: 2px white;
-}
+}*/
 
 .tab-wrapper {
     max-width: 600px;

@@ -43,9 +43,9 @@
         <div class="second-frame bg-dark">
             <div class="images">
                 <img src="../assets/images/archer_in_the_forest.webp" alt="Archer in the forest">
-                <!--<img src="../assets/images/below_the_interspace_of_stars_and_clouds.webp"
-                    alt="Below the interspace of stars and clouds">-->
-                <img src="../assets/mypicture.webp" alt="Below the interspace of stars and clouds">
+                <img src="../assets/images/below_the_interspace_of_stars_and_clouds.webp"
+                    alt="Below the interspace of stars and clouds">
+                <!--<img src="../assets/mypicture.webp" alt="Below the interspace of stars and clouds">-->
                 <img src="../assets/images/fashionista_in_a_museum_pink_frame_black_bg.webp"
                     alt="Fashionista in a museum">
             </div>
@@ -139,9 +139,9 @@
 
             object-fit: cover;
 
-            &:nth-child(2) {
-                rotate: 90deg;
-            }
+            //&:nth-child(2) {
+            //rotate: 90deg;
+            //}
         }
     }
 }
@@ -251,11 +251,11 @@
 
     h2 {
         color: var(--pastel-color-2);
-        font-size: 1.75rem;
+        //font-size: 1.75rem;
     }
 
     p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -274,6 +274,10 @@
 
 @media screen and (max-width: 768px) {
     .third-frame {
+        p {
+            font-size: 2rem;
+        }
+
         .buttons {
             .button-main {
                 width: 30vw;

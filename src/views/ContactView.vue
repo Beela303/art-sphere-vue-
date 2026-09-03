@@ -90,7 +90,7 @@
 
 #contact {
     padding: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     .text-mask {
         color: var(--pastel-color-1);
@@ -112,7 +112,7 @@
             border-radius: 30px;
 
             label {
-                font-size: 1.8rem;
+                font-size: 1.3rem;
             }
 
             input {
@@ -122,7 +122,7 @@
                 margin: 10px;
                 border-radius: 25px;
 
-                font-size: 1.4rem;
+                font-size: 1.3rem;
             }
 
             textarea {
@@ -130,7 +130,7 @@
                 margin: 10px;
                 border-radius: 25px;
 
-                font-size: 1.4rem;
+                font-size: 1.3rem;
 
                 resize: vertical;
             }

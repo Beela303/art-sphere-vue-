@@ -534,14 +534,12 @@ h1:first-child {
     font-size: 30px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     justify-self: center !important;
 
     button {
         color: var(--text-color);
         background: none;
-
-        margin-left: 30px;
     }
 }
 
@@ -918,7 +916,7 @@ h1:first-child {
     .gallery-container {
         .search-container {
             .search-bar {
-                width: 90vw !important;
+                width: 80% !important;
             }
         }
     }

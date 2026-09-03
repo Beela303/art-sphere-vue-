@@ -84,6 +84,8 @@
 }
 
 .text-mask {
+    margin-bottom: 5vh;
+
     font-size: 10vh;
     text-align: center;
 }

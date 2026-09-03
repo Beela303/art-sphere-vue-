@@ -213,9 +213,7 @@
     }
 
     #contact-form {
-        width: 100%;
-        margin-left: calc(2rem + 25px) !important;
-        
+        width: 100% !important;
         display: block;
 
         form {

@@ -915,8 +915,10 @@ h1:first-child {
 
     .gallery-container {
         .search-container {
+            width: 100% !important;
+
             .search-bar {
-                width: 80% !important;
+                width: 100% !important;
             }
         }
     }

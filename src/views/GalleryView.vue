@@ -534,6 +534,7 @@ h1:first-child {
     font-size: 30px;
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
     justify-self: center !important;
 

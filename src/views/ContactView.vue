@@ -30,9 +30,9 @@
                     <input type="email" id="email" name="email" placeholder="Your Email" required>
                     <br />
 
-                    <label for="description">Description:</label>
+                    <label for="content">Content:</label>
                     <br />
-                    <textarea type="text" id="description" name="description" placeholder="I want..." rows="5" cols="40"
+                    <textarea type="text" id="content" name="content" placeholder="I want..." rows="5" cols="40"
                         required></textarea>
                     <br />
 

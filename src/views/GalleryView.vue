@@ -702,6 +702,7 @@ h1:first-child {
 
     .tag-badge {
         //color: var(--text-color);
+        color: #4b5563;
         background: var(--pastel-color-2);
 
         padding: 4px 10px;

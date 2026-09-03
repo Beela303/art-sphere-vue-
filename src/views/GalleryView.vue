@@ -885,7 +885,7 @@ h1:first-child {
     .gallery-container {
         .search-container {
             .search-bar {
-                width: 35vw !important;
+                width: 25vw !important;
             }
         }
     }

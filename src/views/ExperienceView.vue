@@ -128,7 +128,7 @@ const filteredJobs = computed(() => {
 
             &.active,
             &:hover {
-                color: var(--text-color);
+                //color: var(--text-color);
                 background: var(--pastel-color-2);
 
                 border-color: var(--pastel-color-2);

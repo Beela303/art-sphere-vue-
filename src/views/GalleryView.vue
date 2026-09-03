@@ -537,6 +537,14 @@ h1:first-child {
     h1:first-child {
         font-size: 7vh;
     }
+
+    .gallery-container {
+        .search-container {
+            .search-bar {
+                width: 35vw;
+            }
+        }
+    }
 }
 
 #categories-div-arrow {
@@ -578,7 +586,7 @@ h1:first-child {
             border: 2px solid var(--pastel-color-2);
             border-radius: 25px;
 
-            font-size: 10px;
+            font-size: 16px;
         }
     }
 

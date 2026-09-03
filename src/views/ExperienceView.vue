@@ -163,7 +163,8 @@ const filteredJobs = computed(() => {
             position: relative;
 
             .timeline-dot-icon {
-                color: var(--text-color);
+                //color: var(--text-color);
+                color: #222;
                 background: var(--pastel-color-2);
 
                 left: -3.45rem;

@@ -75,7 +75,7 @@
 
 <style lang="scss">
 .bg-dark {
-    background-color: #000;
+    background-color: #222;
 }
 
 //FIRST FRAME/CONTENT
@@ -211,7 +211,7 @@
 
     .text-mask {
         padding-top: 30px;
-        font-size: 5vw !important;
+        font-size: 7vw !important;
     }
 
     p {
@@ -255,7 +255,7 @@
     }
 
     p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 

@@ -107,8 +107,6 @@ h1 {
             background-color: transparent;
 
             padding: 12px 0;
-
-            font-size: 1.5rem;
             font-weight: 600;
 
             border: none;

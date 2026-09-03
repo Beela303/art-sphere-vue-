@@ -75,27 +75,9 @@ const filteredJobs = computed(() => {
 <style lang="scss">
 .experience-page {
     max-width: 800px;
-    min-width: 800px;
-
     margin: 0 auto;
     padding: 2rem;
     padding-top: 0 !important;
-
-    #categories-div-arrow {
-        width: 70%;
-        margin-bottom: 2%;
-
-        font-size: 30px;
-
-        display: flex;
-        justify-content: space-between;
-        justify-self: center;
-
-        button {
-            color: var(--text-color);
-            background: none;
-        }
-    }
 
     /* Category Filter Tags Style */
     .categories {
@@ -113,7 +95,7 @@ const filteredJobs = computed(() => {
         flex-wrap: wrap;
 
         .tag {
-            color: #222; //#4b5563
+            color: #4b5563;
             background: var(--text-color);
 
             padding: 10px 20px;
@@ -130,8 +112,8 @@ const filteredJobs = computed(() => {
 
             &.active,
             &:hover {
-                //color: var(--text-color);
-                background: var(--pastel-color-2);
+                color: var(--text-color);
+                background: var(--main-color);
 
                 border-color: var(--pastel-color-2);
 
@@ -158,16 +140,15 @@ const filteredJobs = computed(() => {
             padding: 1.25rem;
 
             border-radius: 8px;
-            border: 1px solid var(--pastel-color-2);
+            border: 3px dashed var(--pastel-color-2);
             //border: 1px solid var(--pastel-color-2);
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 
             position: relative;
 
             .timeline-dot-icon {
-                //color: var(--text-color);
-                color: #222; //#4b5563
-                background: var(--pastel-color-2);
+                color: var(--text-color);
+                background: var(--main-color);
 
                 left: -3.45rem;
                 top: 14px;
@@ -192,23 +173,19 @@ const filteredJobs = computed(() => {
                 color: var(--text-color);
                 background-color: var(--dark-color);
 
-                text-align: center;
-
                 h3 {
                     color: var(--text-color);
                     //color: #111827;
 
                     margin: 0;
-                    font-size: 1.6rem; //1.25rem
+                    font-size: 1.25rem;
                 }
 
                 h4 {
                     color: #b6b5af;
-                    //color: #222; //#4b5563
+                    //color: #4b5563;
 
                     margin: 0.35rem 0 0;
-
-                    font-size: 1.4rem;
                     font-weight: 500;
                 }
 
@@ -218,7 +195,7 @@ const filteredJobs = computed(() => {
 
                     margin: 0.5rem 0 0.75rem;
 
-                    font-size: 1.2rem; //0.85rem
+                    font-size: 0.85rem;
                     font-weight: 500;
                 }
 
@@ -227,22 +204,19 @@ const filteredJobs = computed(() => {
                     //color: #374151;
 
                     margin: 0;
-
-                    font-size: 1.5rem;
                     line-height: 1.5;
                 }
 
                 .job-tags {
                     margin-top: 1rem;
-                    gap: 8px;
 
-                    justify-content: center;
+                    gap: 8px;
 
                     display: flex;
                     flex-wrap: wrap;
 
                     .job-tag {
-                        //color: #222; //#4b5563
+                        //color: #4b5563;
                         //background: var(--text-color);
 
                         padding: 4px 10px;
@@ -251,7 +225,7 @@ const filteredJobs = computed(() => {
                         border: 1px solid var(--pastel-color-2);
 
                         font-weight: 500;
-                        font-size: 1.3rem; //0.75rem
+                        font-size: 0.75rem;
                     }
                 }
             }
@@ -283,13 +257,6 @@ const filteredJobs = computed(() => {
 /* Smooth reordering layout movement (v-move) */
 .timeline-list-move {
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (max-width: 768px) {
-    .experience-page {
-        max-width: 600px !important;
-        min-width: 600px !important;
-    }
 }
 
 /*@media screen and (max-width: 600px) {

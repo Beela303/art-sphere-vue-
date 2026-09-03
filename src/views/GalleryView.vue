@@ -539,6 +539,22 @@ h1:first-child {
     }
 }
 
+#categories-div-arrow {
+    width: 70%;
+    margin-bottom: 2%;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+
+    button {
+        color: var(--text-color);
+        background: none;
+    }
+}
+
 .gallery-container {
     max-width: 1200px;
 
@@ -562,23 +578,7 @@ h1:first-child {
             border: 2px solid var(--pastel-color-2);
             border-radius: 25px;
 
-            font-size: 25px;
-        }
-    }
-
-    #categories-div-arrow {
-        width: 70%;
-        margin-bottom: 2%;
-
-        font-size: 30px;
-
-        display: flex;
-        justify-content: space-between;
-        justify-self: center;
-
-        button {
-            color: var(--text-color);
-            background: none;
+            font-size: 16px;
         }
     }
 
@@ -591,6 +591,8 @@ h1:first-child {
         justify-content: center;
         flex-wrap: wrap;
 
+        transition: 5s;
+
         button {
             background: var(--text-color);
 
@@ -598,20 +600,18 @@ h1:first-child {
             border: 1px solid var(--pastel-color-2);
 
             border-radius: 20px;
-
-            font-size: 1rem;
             font-weight: bold;
 
             transition: var(--transition);
             cursor: pointer;
 
             &:hover {
-                //color: var(--text-color);
+                color: var(--text-color);
                 background: var(--pastel-color-2);
             }
 
             &.active {
-                //color: var(--text-color);
+                color: var(--text-color);
                 background: var(--pastel-color-2);
 
                 border-color: var(--pastel-color-2);
@@ -621,8 +621,6 @@ h1:first-child {
 
     /* Card Grid Layout */
     .photo-grid {
-        margin-top: 3%;
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 20px;
@@ -699,7 +697,7 @@ h1:first-child {
                     color: var(--white-color);
 
                     margin: 0 0 10px 0;
-                    font-size: 1.5rem; //18px
+                    font-size: 18px;
                 }
             }
         }
@@ -708,7 +706,6 @@ h1:first-child {
     /* Small Category Badge Tags */
     .tags-container,
     .modal-tags {
-        color: #222;
         gap: 6px;
 
         display: flex;
@@ -716,13 +713,13 @@ h1:first-child {
     }
 
     .tag-badge {
-        //color: var(--text-color);
+        color: var(--text-color);
         background: var(--pastel-color-2);
 
         padding: 4px 10px;
         border-radius: 12px;
 
-        font-size: 1rem; //12px
+        font-size: 12px;
         font-weight: 500;
 
         text-transform: uppercase;
@@ -747,7 +744,7 @@ h1:first-child {
 
         /* Navigation buttons */
         .nav-btn {
-            //color: var(--text-color);
+            color: var(--text-color);
             background: rgba(255, 255, 255, 0.15);
 
             top: 50%;
@@ -807,11 +804,12 @@ h1:first-child {
             }
 
             h2 {
-                //color: var(--text-color);
+                color: var(--text-color);
 
                 margin: 15px 0 10px 0;
-                font-size: 1.7rem; //22px
+                font-size: 22px;
             }
+
 
             .close-btn {
                 color: var(--text-color);
@@ -836,6 +834,7 @@ h1:first-child {
 
                 border-radius: 6px;
                 outline: none;
+
             }
 
         }
@@ -905,13 +904,13 @@ h1:first-child {
     .gallery-container {
         .search-container {
             .search-bar {
-                width: 70vw !important;
+                width: 90vw !important;
             }
         }
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .photo-grid {
         grid-template-columns: 1fr !important;
     }

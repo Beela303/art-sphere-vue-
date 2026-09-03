@@ -67,3 +67,18 @@ const filteredEdu = computed(() => {
         </div>
     </div>
 </template>
+
+<style lang="scss" scoped>
+.experience-page {
+    max-width: 600px;
+
+    .timeline-content {
+
+        h3,
+        h4,
+        p {
+            text-align: center;
+        }
+    }
+}
+</style>

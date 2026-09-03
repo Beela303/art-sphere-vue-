@@ -5,6 +5,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue';
 const selectedCategory = ref('All');
 const searchQuery = ref('');
 const activePhoto = ref(null);
+const categoriesTab = ref(false)
 
 const photos = ref([
     {
@@ -444,8 +445,16 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeyDown));
                     class="search-bar" />
             </div>
 
+            <div id="categories-div-arrow">
+                <p>Categories</p>
+
+                <button id="button-open-close" @click="categoriesTab = !categoriesTab" type="button">
+                    <i :class="['fas', categoriesTab ? 'fa-chevron-up' : 'fa-chevron-down']"></i>
+                </button>
+            </div>
+
             <!-- Category Tabs -->
-            <div class="tabs">
+            <div class="tabs" v-if="categoriesTab">
                 <button v-for="cat in categoriesList" :key="cat" :class="{ active: selectedCategory === cat }"
                     @click="selectedCategory = cat">
                     {{ cat }}
@@ -514,7 +523,7 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeyDown));
 
 <style lang="scss" scoped>
 h1:first-child {
-    font-size: 15vh;
+    font-size: 10vh;
     text-align: center;
 }
 
@@ -529,7 +538,6 @@ h1:first-child {
         font-size: 7vh;
     }
 }
-
 
 .gallery-container {
     max-width: 1200px;
@@ -554,7 +562,23 @@ h1:first-child {
             border: 2px solid var(--pastel-color-2);
             border-radius: 25px;
 
-            font-size: 16px;
+            font-size: 25px;
+        }
+    }
+
+    #categories-div-arrow {
+        width: 70%;
+        margin-bottom: 2%;
+
+        font-size: 30px;
+
+        display: flex;
+        justify-content: space-between;
+        justify-self: center;
+
+        button {
+            color: var(--text-color);
+            background: none;
         }
     }
 
@@ -574,6 +598,8 @@ h1:first-child {
             border: 1px solid var(--pastel-color-2);
 
             border-radius: 20px;
+
+            font-size: 1rem;
             font-weight: bold;
 
             transition: var(--transition);
@@ -595,6 +621,8 @@ h1:first-child {
 
     /* Card Grid Layout */
     .photo-grid {
+        margin-top: 3%;
+
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 20px;
@@ -671,7 +699,7 @@ h1:first-child {
                     color: var(--white-color);
 
                     margin: 0 0 10px 0;
-                    font-size: 18px;
+                    font-size: 1.5rem; //18px
                 }
             }
         }
@@ -694,7 +722,7 @@ h1:first-child {
         padding: 4px 10px;
         border-radius: 12px;
 
-        font-size: 12px;
+        font-size: 1rem; //12px
         font-weight: 500;
 
         text-transform: uppercase;
@@ -782,7 +810,7 @@ h1:first-child {
                 //color: var(--text-color);
 
                 margin: 15px 0 10px 0;
-                font-size: 22px;
+                font-size: 1.7rem; //22px
             }
 
             .close-btn {
@@ -808,7 +836,6 @@ h1:first-child {
 
                 border-radius: 6px;
                 outline: none;
-
             }
 
         }

@@ -31,9 +31,9 @@ const ToggleMenu = () => {
                 <span class="material-icons">home</span>
                 <span class="text">Home</span>
             </router-link>
-            <router-link class="button" to="/about">
-                <span class="material-icons">visibility</span>
-                <span class="text">About</span>
+            <router-link class="button" to="/eduexp">
+                <span class="material-icons">work</span>
+                <span class="text">Education & Experience</span>
             </router-link>
             <router-link class="button" to="/gallery">
                 <span class="material-icons">image</span>
@@ -88,6 +88,9 @@ aside {
 
         h1 {
             color: #f3f3f3 !important;
+
+            font-size: 2rem;
+            text-align: center;
         }
 
         img {

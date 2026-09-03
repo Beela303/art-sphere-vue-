@@ -60,7 +60,8 @@
                             title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="https://www.twitter.com/beela303" target="_blank" rel="noopener noreferrer"
                             title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><router-link to="/podcast" title="Podcast"><i class="fas fa-podcast"></i></router-link></li>
+                    <li><a href="https://beela303.vercel.app/podcast/" target="_blank" rel="noopener noreferrer"
+                            title="Podcast"><i class="fas fa-podcast"></i></a></li>
                     <li><a href="https://www.youtube.com/@beela303" target="_blank" rel="noopener noreferrer"
                             title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
                     <li><a href="https://www.tiktok/beela303" target="_blank" rel="noopener noreferrer"
@@ -105,13 +106,13 @@
             padding: 25px;
 
             margin: 25px;
-            margin-bottom: 12vh;
+            margin-bottom: 5vh;
 
             border: 1px dashed var(--text-color);
             border-radius: 30px;
 
             label {
-                font-size: 1.2rem;
+                font-size: 1.8rem;
             }
 
             input {
@@ -120,12 +121,16 @@
 
                 margin: 10px;
                 border-radius: 25px;
+
+                font-size: 1.4rem;
             }
 
             textarea {
                 width: 100%;
                 margin: 10px;
                 border-radius: 25px;
+
+                font-size: 1.4rem;
 
                 resize: vertical;
             }

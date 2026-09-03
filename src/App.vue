@@ -64,4 +64,14 @@ button {
 li {
   list-style: none;
 }
+
+.full {
+  height: 100vh;
+  //overflow-y: scroll;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
 </style>

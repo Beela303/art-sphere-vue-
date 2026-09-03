@@ -214,6 +214,8 @@
 
     #contact-form {
         width: 100%;
+        margin-left: calc(2rem + 25px) !important;
+        
         display: block;
 
         form {
@@ -223,7 +225,6 @@
             margin-top: 0;
             margin-bottom: 7vh;
             margin-right: 0;
-            margin-left: calc(2rem + 25px) !important;
 
             label {
                 font-size: 1.3rem;

@@ -534,12 +534,14 @@ h1:first-child {
     font-size: 30px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     justify-self: center !important;
 
     button {
         color: var(--text-color);
         background: none;
+
+        margin-left: 30px;
     }
 }
 

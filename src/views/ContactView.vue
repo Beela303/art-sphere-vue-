@@ -83,11 +83,15 @@
     margin-right: 0 !important;
 }
 
-.text-mask {
-    margin-bottom: 2.5vh;
-
+h1:first-child {
     font-size: 10vh;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1:first-child {
+        font-size: 7vh;
+    }
 }
 
 #contact {

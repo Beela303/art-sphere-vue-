@@ -62,6 +62,17 @@ export default {
     -webkit-text-stroke: 2px white;
 }*/
 
+h1:first-child {
+    font-size: 10vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1:first-child {
+        font-size: 7vh;
+    }
+}
+
 .tab-wrapper {
     max-width: 600px;
     margin: 6vh auto 20vh auto;
